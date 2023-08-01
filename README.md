@@ -1,9 +1,9 @@
 # Oscilloscope Measurement Logger V01
+Made for Tektronix DPO2000. (Other Tektro oscilloscopes may also work.)
 
 ## Function
 - Saves a log of values on oscilloscope's "Measure" function.
 - The transition is displayed on the graph.
-- Made for Tektronix DPO2000. (Other Tektro oscilloscopes may also work.)
 
 ## How to use
 1. Connect the oscilloscope and PC via USB and install the driver.
