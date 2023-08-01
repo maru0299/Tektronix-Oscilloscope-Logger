@@ -1,26 +1,26 @@
 # Oscilloscope Measurement Logger V01
-Tektronix DPO2000用に作りました。
-他のテクトロのオシロでも動くかもしれません。
+Made for Tektronix DPO2000.
+Other Tektro oscilloscopes may also work.
 
-1. オシロとPCをUSB接続しドライバをインストールしてください。  
-   ドライバはおそらく自動でインストールされます。
+## How to use
+1. Connect the oscilloscope and PC via USB and install the driver.
+    The driver will probably install automatically.
 
-2. Oscillo_Logger.exeを起動し、Measurement SettingゾーンでTime Step（測定間隔）とCycle（何回測定するか）を設定してください。  
-   Cycleが空欄の場合は手動で止めるまで測定します。
+2. Start Oscillo_Logger.exe and set the Time Step (measurement interval) and Cycle (how many times to measure) in the Measurement Setting zone.
+    If Cycle is blank, measurements will continue until manually stopped.
 
-3. Oscilloscopeゾーンで測定器と接続してください。  
-   Connectボタンを押すといくつか表示されると思いますが、  
-   他のUSBデバイスをすべて取り外して残ったUSBどうのこうのというリソースがオシロです。
+3. Connect your instrument in the Oscilloscope zone.
+    If you press the Connect button, some will appear, but the resource left after removing all other USB devices is the oscilloscope.
 
-4. Save CSVにログの保存先フォルダとファイル名入力してください。  
-   空欄にしておくとログが保存されません。
+4. Enter the log save destination folder and file name in Save CSV.
+    If left blank, the log will not be saved.
 
-5. オシロスコープ側のMeasurementを手動で設定してください。  
+5. Manually set the measurement settings on the oscilloscope.
 
-6. START LOGでMeasurementのログがとれます。  
+6. START LOG will log the measurement.
 
 ※
-上手く動かなければ同梱のni-visa_20.0_online_repack3.exeをインストールしてください。  
-NI-VISAランタイムだけインストールすれば動くと思います。  
+If it doesn't work, please install the included "ni-visa_20.0_online_repack3.exe".
+Just install the NI-VISA runtime and it should work.
 
 maru
