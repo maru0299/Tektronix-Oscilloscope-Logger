@@ -2,6 +2,10 @@
 Made for Tektronix DPO2000.
 Other Tektro oscilloscopes may also work.
 
+## function
+- Saves a log of values on oscilloscope's "Measure" function.
+- The transition is displayed on the graph.
+
 ## How to use
 1. Connect the oscilloscope and PC via USB and install the driver.
     The driver will probably install automatically.
