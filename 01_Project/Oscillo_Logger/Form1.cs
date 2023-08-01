@@ -458,7 +458,7 @@ namespace Oscillo_Logger
         {
             //エリアを作成
             chart1.ChartAreas.Add(new ChartArea(name));
-            chart1.ChartAreas[name].AxisX.Title = "経過時間[s]";
+            chart1.ChartAreas[name].AxisX.Title = "Elapsed Time[s]";
             chart1.ChartAreas[name].AxisY.Title = Ytitle;
             chart1.ChartAreas[name].AxisX.Maximum = 60;
             chart1.ChartAreas[name].AxisX.Minimum = 0;
@@ -580,7 +580,7 @@ namespace Oscillo_Logger
                     }
                     //ヘッダの書き込み
                     file.Write(string.Join(",", "", "Measure1", "Measure2", "Measure3", "Measure4") + "\r\n");
-                    file.Write(string.Join(",", "経過時間[s]", header1, header2, header3, header4) + "\r\n");
+                    file.Write(string.Join(",", "Elapsed Time[s]", header1, header2, header3, header4) + "\r\n");
                     //値の書き込み
                     file.Write(write_str + "\r\n");
                 }

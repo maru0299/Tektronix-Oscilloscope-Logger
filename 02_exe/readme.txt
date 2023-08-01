@@ -29,4 +29,4 @@ START LOGでMeasurementのログがとれます。
 上手く動かなければ同梱のni-visa_20.0_online_repack3.exeをインストールしてください。
 NI-VISAランタイムだけインストールすれば動くと思います。
 
-圓岡
+maru
