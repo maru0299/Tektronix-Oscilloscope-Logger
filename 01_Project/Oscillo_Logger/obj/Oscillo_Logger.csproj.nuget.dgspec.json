@@ -54,9 +54,17 @@
               "target": "Package",
               "version": "[4.7.0, )"
             },
+            "NationalInstruments.Visa": {
+              "target": "Package",
+              "version": "[25.5.0.13, )"
+            },
             "System.Data.DataSetExtensions": {
               "target": "Package",
               "version": "[4.5.0, )"
+            },
+            "WinForms.DataVisualization": {
+              "target": "Package",
+              "version": "[1.10.0, )"
             }
           },
           "imports": [
