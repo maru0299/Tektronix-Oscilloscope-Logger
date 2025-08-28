@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Oscillo_Logger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bac7f9e29d6bfce5af7e2cc3fdf7e5ff8db6a32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8be810dc31c69d74fce36438fa794a130eaa4ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Oscillo_Logger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Oscillo_Logger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

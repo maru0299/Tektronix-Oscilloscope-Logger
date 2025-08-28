@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{ED038E9D-D091-4D01-A942-327AC95F05A9}|Oscillo_Logger\\Oscillo_Logger.csproj|solutionrelative:oscillo_logger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED038E9D-D091-4D01-A942-327AC95F05A9}|Oscillo_Logger\\Oscillo_Logger.csproj|c:\\src\\tektronix-oscilloscope-logger\\01_project\\oscillo_logger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{ED038E9D-D091-4D01-A942-327AC95F05A9}|Oscillo_Logger\\Oscillo_Logger.csproj|C:\\src\\Tektronix-Oscilloscope-Logger\\01_Project\\oscillo_logger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{ED038E9D-D091-4D01-A942-327AC95F05A9}|Oscillo_Logger\\Oscillo_Logger.csproj|solutionrelative:oscillo_logger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,11 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -50,8 +54,7 @@
               "ToolTip": "C:\\src\\Tektronix-Oscilloscope-Logger\\01_Project\\Oscillo_Logger\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
               "RelativeToolTip": "Oscillo_Logger\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T02:24:42.163Z",
-              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+              "WhenOpened": "2025-08-28T02:24:42.163Z"
             }
           ]
         }
