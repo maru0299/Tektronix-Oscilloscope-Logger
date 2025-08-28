@@ -2,19 +2,6 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "IviFoundation.Visa/8.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Ivi.Visa.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Ivi.Visa.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -22,22 +9,6 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "NationalInstruments.Visa/25.5.0.13": {
-        "type": "package",
-        "dependencies": {
-          "IviFoundation.Visa": "8.0.2"
-        },
-        "compile": {
-          "lib/net6.0/NationalInstruments.Visa.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/NationalInstruments.Visa.dll": {
-            "related": ".xml"
-          }
         }
       },
       "System.Data.DataSetExtensions/4.5.0": {
@@ -48,47 +19,10 @@
         "runtime": {
           "lib/netstandard2.0/System.Data.DataSetExtensions.dll": {}
         }
-      },
-      "WinForms.DataVisualization/1.10.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.dll": {
-            "related": ".pdb;.xml"
-          },
-          "lib/net6.0-windows7.0/WinForms.DataVisualization.dll": {
-            "related": ".pdb;.Utilities.pdb;.Utilities.xml;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.dll": {
-            "related": ".pdb;.xml"
-          },
-          "lib/net6.0-windows7.0/WinForms.DataVisualization.dll": {
-            "related": ".pdb;.Utilities.pdb;.Utilities.xml;.xml"
-          }
-        }
       }
     }
   },
   "libraries": {
-    "IviFoundation.Visa/8.0.2": {
-      "sha512": "M7gBB5H9WyPwF5MKK0Q5+I9sYaKH1GMHdezjwsmtYwH7t0oy5nSK7B9ooGnX043eoDkY7o/5DvNy8DEzKHqW3Q==",
-      "type": "package",
-      "path": "ivifoundation.visa/8.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "docs/README.md",
-        "images/ivi.png",
-        "ivifoundation.visa.8.0.2.nupkg.sha512",
-        "ivifoundation.visa.nuspec",
-        "lib/net6.0/Ivi.Visa.dll",
-        "lib/net6.0/Ivi.Visa.xml",
-        "license/license.txt",
-        "ref/net40/Ivi.Visa.dll",
-        "ref/net40/Ivi.Visa.xml"
-      ]
-    },
     "Microsoft.CSharp/4.7.0": {
       "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
@@ -158,20 +92,6 @@
         "version.txt"
       ]
     },
-    "NationalInstruments.Visa/25.5.0.13": {
-      "sha512": "nSZcnoOYdL4cBR5AgQfypTIPvBpbt7c/0qGeWmWFVx4KThEt1x1z0PJXWzApSmD8uM8wpgefMBiqBkMNcqHWeQ==",
-      "type": "package",
-      "path": "nationalinstruments.visa/25.5.0.13",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net6.0/NationalInstruments.Visa.dll",
-        "lib/net6.0/NationalInstruments.Visa.xml",
-        "nationalinstruments.visa.25.5.0.13.nupkg.sha512",
-        "nationalinstruments.visa.nuspec"
-      ]
-    },
     "System.Data.DataSetExtensions/4.5.0": {
       "sha512": "221clPs1445HkTBZPL+K9sDBdJRB8UN8rgjO3ztB0CQ26z//fmJXtlsr6whGatscsKGBrhJl5bwJuKSA8mwFOw==",
       "type": "package",
@@ -190,51 +110,12 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "WinForms.DataVisualization/1.10.0": {
-      "sha512": "QKFQUf6xnsseiRsWfIeKvbWRJWvOKOvkoec/pWxEjwYrr4Vix4xmAWmvTpJGxoeWRXOzV7Pprm5SCFqzXzBA4g==",
-      "type": "package",
-      "path": "winforms.datavisualization/1.10.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "NuGetReadme.md",
-        "lib/net6.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
-        "lib/net6.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.Server.dll",
-        "lib/net6.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Utilities.dll",
-        "lib/net6.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.Client.dll",
-        "lib/net6.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
-        "lib/net6.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Utilities.dll",
-        "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.dll",
-        "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.pdb",
-        "lib/net6.0-windows7.0/WinForms.DataVisualization.Utilities.xml",
-        "lib/net6.0-windows7.0/WinForms.DataVisualization.dll",
-        "lib/net6.0-windows7.0/WinForms.DataVisualization.pdb",
-        "lib/net6.0-windows7.0/WinForms.DataVisualization.xml",
-        "lib/net9.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
-        "lib/net9.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Designer.Server.dll",
-        "lib/net9.0-windows7.0/Design/WinForms/Server/WinForms.DataVisualization.Utilities.dll",
-        "lib/net9.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.Client.dll",
-        "lib/net9.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Designer.ClientServerProtocol.dll",
-        "lib/net9.0-windows7.0/Design/WinForms/WinForms.DataVisualization.Utilities.dll",
-        "lib/net9.0-windows7.0/WinForms.DataVisualization.Utilities.dll",
-        "lib/net9.0-windows7.0/WinForms.DataVisualization.Utilities.pdb",
-        "lib/net9.0-windows7.0/WinForms.DataVisualization.Utilities.xml",
-        "lib/net9.0-windows7.0/WinForms.DataVisualization.dll",
-        "lib/net9.0-windows7.0/WinForms.DataVisualization.pdb",
-        "lib/net9.0-windows7.0/WinForms.DataVisualization.xml",
-        "winforms.datavisualization.1.10.0.nupkg.sha512",
-        "winforms.datavisualization.nuspec"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Microsoft.CSharp >= 4.7.0",
-      "NationalInstruments.Visa >= 25.5.0.13",
-      "System.Data.DataSetExtensions >= 4.5.0",
-      "WinForms.DataVisualization >= 1.10.0"
+      "System.Data.DataSetExtensions >= 4.5.0"
     ]
   },
   "packageFolders": {
@@ -291,17 +172,9 @@
             "target": "Package",
             "version": "[4.7.0, )"
           },
-          "NationalInstruments.Visa": {
-            "target": "Package",
-            "version": "[25.5.0.13, )"
-          },
           "System.Data.DataSetExtensions": {
             "target": "Package",
             "version": "[4.5.0, )"
-          },
-          "WinForms.DataVisualization": {
-            "target": "Package",
-            "version": "[1.10.0, )"
           }
         },
         "imports": [
