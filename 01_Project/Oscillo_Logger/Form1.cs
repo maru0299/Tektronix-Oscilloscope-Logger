@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -123,7 +123,8 @@ namespace Oscillo_Logger
             //オシロの値を取得→テキストボックスとグラフに表示
             if (Oscillo_ch1 == true)
             {
-                value1 = double.Parse(query_VISA("MEASUrement:MEAS1:VALue?"), System.Globalization.NumberStyles.Float); //値の取得とdouble型変換
+                string resp = query_VISA("MEASUrement:MEAS1:VALue?");
+                value1 = double.Parse(resp, System.Globalization.NumberStyles.Float); //値の取得とdouble型変換
                 textBox_M1.AppendText(value1.ToString("F2") + unit1 + "\r\n"); //テキストボックスに表示
                 chart1.Series["Measure1"].Points.AddXY(time, value1); //グラフに表示
                 //横軸のスケール設定
@@ -680,9 +681,11 @@ namespace Oscillo_Logger
             if(Oscillo_Open == true)
             {
                 string textToWrite = command;
+
                 mbSession.RawIO.Write(textToWrite + "\n");
                 Wait();
-                return mbSession.RawIO.ReadString();
+                string rsp = mbSession.RawIO.ReadString();
+                return rsp;
             }
             else
             {

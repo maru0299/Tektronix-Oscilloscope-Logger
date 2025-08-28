@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "H4hC19blGOA=",
+  "success": true,
+  "projectFilePath": "C:\\src\\Tektronix-Oscilloscope-Logger\\01_Project\\Oscillo_Logger\\Oscillo_Logger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maruoka\\.nuget\\packages\\ivifoundation.visa\\8.0.2\\ivifoundation.visa.8.0.2.nupkg.sha512",
+    "C:\\Users\\maruoka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\maruoka\\.nuget\\packages\\nationalinstruments.visa\\25.5.0.13\\nationalinstruments.visa.25.5.0.13.nupkg.sha512",
+    "C:\\Users\\maruoka\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
+    "C:\\Users\\maruoka\\.nuget\\packages\\winforms.datavisualization\\1.10.0\\winforms.datavisualization.1.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}

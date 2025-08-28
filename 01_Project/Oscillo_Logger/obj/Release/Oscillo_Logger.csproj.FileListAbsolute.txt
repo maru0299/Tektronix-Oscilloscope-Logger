@@ -37,12 +37,12 @@ C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\bin\Release\Natio
 C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\bin\Release\Ivi.Visa.xml
 C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\bin\Release\NationalInstruments.Visa.xml
 C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_Logger.csproj.AssemblyReference.cache
-C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_Logger.csproj.SuggestedBindingRedirects.cache
 C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_Logger.Form1.resources
 C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_Logger.Properties.Resources.resources
 C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_Logger.SelectResource.resources
 C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_Logger.csproj.GenerateResource.cache
 C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_Logger.csproj.CoreCompileInputs.cache
-C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_Logger.csproj.CopyComplete
 C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_Logger.exe
 C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_Logger.pdb
+C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_Logger.exe.config
+C:\src\Tektronix-Oscilloscope-Logger\01_Project\Oscillo_Logger\obj\Release\Oscillo_.1DDD6E14.Up2Date
